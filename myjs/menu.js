@@ -58,16 +58,17 @@ function initBody() {
     var s4 = new SetMenuButton(document.getElementById("bb4"),4);
 
 
-    //var App = React.createClass({
+    // var App = React.createClass({
     //    render: function(){
     //        return(React.createElement("h1", null, "Hello, world!"));
     //    }
-    //});
+    // });
 
     var App = React.createClass({
         render: function(){
             return <div>
-            Hello, from Shawn!
+                <h1>Hello, world!</h1>
+                <p>Some text</p>
             </div>;
         }
     });

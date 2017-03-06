@@ -1,0 +1,10 @@
+{
+  "name": "mathexam",
+  "version": "0.1.0",
+  "devDependencies": {
+    "babel-preset-react": "^6.23.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
