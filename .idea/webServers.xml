@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="670e72df-2527-4169-b45b-3bca1c0941ac" name="www.dudajevagatve.lv" url="http://www.dudajevagatve.lv">
+        <fileTransfer host="www.dudajevagatve.lv" port="22" rootFolder="/home/lighttpd/dudajevagatve.lv/http/" accessType="SFTP" password="dfe8df9fdfdedffcdfc3dfc4dfc0dfd9dfc2dfe1dfcbdfcb" username="kalvis">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
