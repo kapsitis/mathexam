@@ -1,2 +1,9 @@
+.cache-main
+.classpath
+.project
 node_modules/*
 dist_myjs/*
+/.settings/
+/bin/
+/project/target/
+/target/
