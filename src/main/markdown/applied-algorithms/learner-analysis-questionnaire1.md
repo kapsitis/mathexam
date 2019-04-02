@@ -50,7 +50,7 @@ beidzot ar mazāk svarīgajiem.)
     1. Ar kursu saistītās aktivitātes veicu vienatnē.
     2. Apspriedu klātienē ar kursabiedriem.
     3. Piedalījos e-studiju vides forumos, sūtīju epastus 
-    kursabiedriem vai pasniedzējam.    
+    kursabiedriem vai pasniedzējam.
     4. Piedalījos klātienes konsultācijās ar pasniedzēju.
     5. Sazinājos ar cilvēkiem, kuri nav šajā kursā 
     (darba kolēģi, ārpus-LU forumi, u.c.)
