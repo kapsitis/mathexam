@@ -8,6 +8,7 @@
 * Aptauja #2 (kursa saturs): 
   [SurveyMonkey](https://www.surveymonkey.com/r/KHF9NLB); 
   [Aptauja #2: pirmteksts](learner-analysis-questionnaire2.html)
+* [Apmācāmo aptaujas rezultāti](learner-analysis-report.html)
 
 ## Kursa darbību analīze un galaiznākumi
 
