@@ -15,8 +15,8 @@ object MainSite {
       val res = directory.mkdirs()
     }
   }
-  
-  val PREFIX="""<html>
+
+  val PREFIX = """<html>
 <head>
 <title>DatZ4020: Lietišķie algoritmi</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
@@ -28,19 +28,31 @@ body {
 </style>
 </head>
 <body>"""
-  
+
   val SUFFIX = """</body>
 </html>"""
+
+  def listFiles(dir: String, ext: String): List[String] = {
+    val d = new File(dir)
+    val res = if (d.exists && d.isDirectory) {
+      d.listFiles.filter(_.isFile).toList 
+    } else {
+      List[File]()
+    }
+    return res.map(f=>f.getName).filter(_.endsWith(ext))
+  }
+  
+  def getPlainName(fName: String): String = {
+    val res = fName.split("\\.")
+    return res(0)
+  }
 
   def main(args: Array[String]): Unit = {
     val srcDir = "src/main/markdown"
     val destDir = "target/site"
     val subDir = "applied-algorithms"
 
-    val files = List(
-      "index",
-      "learner-analysis-questionnaire1",
-      "learner-analysis-questionnaire2")
+    val files = listFiles(s"$srcDir/$subDir",".md").map(f=>getPlainName(f))
 
     for (ff <- files) {
       val fName = s"$srcDir/$subDir/$ff.md"
