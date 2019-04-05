@@ -8,24 +8,26 @@ import com.github.rjeschke.txtmark.Processor
 object MainSite {
 
   def mkSubdir(dName: String): Unit = {
-    //print(s"Creating $dName...\n")
+    print(s"Creating $dName...\n")
     val directory = new File(dName)
     if (!directory.exists()) {
-      print("Directory does not exist\n")
       val res = directory.mkdirs()
     }
   }
 
   val PREFIX = """<html>
 <head>
-<title>DatZ4020: Lietišķie algoritmi</title>
+<title>Virsraksts</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<style>
-body {
-  margin: 5%;
-  font-family: Arial;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style/default.css"/>
+</head>
+<body>"""
+  
+    val PREFIX2 = """<html>
+<head>
+<title>Virsraksts</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../style/default.css"/>
 </head>
 <body>"""
 
@@ -35,13 +37,13 @@ body {
   def listFiles(dir: String, ext: String): List[String] = {
     val d = new File(dir)
     val res = if (d.exists && d.isDirectory) {
-      d.listFiles.filter(_.isFile).toList 
+      d.listFiles.filter(_.isFile).toList
     } else {
       List[File]()
     }
-    return res.map(f=>f.getName).filter(_.endsWith(ext))
+    return res.map(f => f.getName).filter(_.endsWith(ext))
   }
-  
+
   def getPlainName(fName: String): String = {
     val res = fName.split("\\.")
     return res(0)
@@ -50,20 +52,23 @@ body {
   def main(args: Array[String]): Unit = {
     val srcDir = "src/main/markdown"
     val destDir = "target/site"
-    val subDir = "applied-algorithms"
+    val subDirs = List("", "applied-algorithms", "other-courses")
 
-    val files = listFiles(s"$srcDir/$subDir",".md").map(f=>getPlainName(f))
+    for (subDir <- subDirs) {
+      val files = listFiles(s"$srcDir/$subDir", ".md").map(f => getPlainName(f))
 
-    for (ff <- files) {
-      val fName = s"$srcDir/$subDir/$ff.md"
-      val fileContents = Source.fromFile(fName).getLines.mkString("\n")
-      val result = Processor.process(fileContents)
+      for (ff <- files) {
+        val fName = s"$srcDir/$subDir/$ff.md"
+        val fileContents = Source.fromFile(fName).getLines.mkString("\n")
+        val result = Processor.process(fileContents)
 
-      val targetDir = s"$destDir/$subDir"
-      mkSubdir(targetDir)
-      new PrintWriter(s"$targetDir/$ff.html") {
-        write(PREFIX + result + SUFFIX)
-        close
+        val targetDir = s"$destDir/$subDir"
+        mkSubdir(targetDir)
+        new PrintWriter(s"$targetDir/$ff.html") {
+          write((if (subDir.length()==0) PREFIX else PREFIX2) + 
+              result + SUFFIX)
+          close
+        }
       }
     }
   }

@@ -6,6 +6,6 @@ dist_myjs/*
 /.settings/
 /bin/
 /project/target/
-/src/main/office/
+/office/
 /target/
 
