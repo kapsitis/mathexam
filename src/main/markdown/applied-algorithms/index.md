@@ -29,9 +29,3 @@ Piemēram, spēja noteikt algoritma patērēto laiku noteikta
 veida ciklā ir kursā nepieciešama/apskatāma darbība. Bet 
 to parasti nepārbauda atsevišķi. Galaiznākums ir dalībnieka
 prasme analizēt noteiktas saimes algoritma efektivitāti kopumā.
-
-<!--
-* [Darbību analīze](https://docs.google.com/spreadsheets/d/1J1dABx19J0iYPhTanBYgekcV1UgfzA0OtKi7K4Yb5D8/edit?usp=sharing) - 
-  Google Spreadsheet (lūdzu sazināties ar Kalvi Apsīti, ja 
-  vēlaties šo sarakstu rediģēt). 
--->

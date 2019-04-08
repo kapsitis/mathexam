@@ -21,7 +21,8 @@ atspoguļošana apmācību artefaktos (lekciju bildēs, video, vingrinājumu apr
 Akadēmisku disciplīnu, kura aplūko minētos jautājumus sauc *Instructional Systems Design (ISD)*.
 
 
-**Rezultāti:** 
+## Rezultāti 
+
 1. Kursa dalībnieki spēj analizēt studentu vai darbinieku priekšzināšanu vai 
 darba efektivitātes uzdevumus, saprast, kuri no tiem risināmi ar apmācības kursiem
 un kuri - ar citām metodēm. Sāķotnējā/ārējā analīze (*Front-end analysis*) sniedz
