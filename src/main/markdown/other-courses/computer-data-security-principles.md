@@ -16,8 +16,7 @@ Pēdējo gadu laikā daudzi uzņēmumiem kritiski dati ir pācēlušies uz t.s. 
 citu uzņēmumu (vai pat citu valstu) kontrolē esošiem serveriem. Tādēļ izmainījies
 arī priekšstats par drošības riskiem - mazāks uzsvars uz perimetra aizsardzību, ko nodrošina
 politikas (*policy rules*), kas ierakstītas ugunsmūros vai 
-Web/Email vārtejās (*gateways*). 
-
+Web/Email vārtejās (*gateways*).  
 Mūsdienās lielāka uzmanība 
 ir lietotāju uzvedības novērošanai, noteikta veida anomāliju pazīšanai, izmantojot informāciju, kas 
 savākta tradicionālajās tīkla perimetra ierīcēs un arī specializētos programmatūras aģentos 
@@ -27,7 +26,7 @@ datu drošības inženieris, lielas informācijas sistēmas arhitekts u.c.) var�
 integrēties ar esošiem drošības rīkiem, viņam/viņai nepieciešamas zināšanas par vispārīgiem principiem, 
 kuri ir ļoti daudzu uzņēmumu drošības risinājumu un rīku pamatā. 
 
-**Rezultāti:** 
+## Rezultāti
 
 1. Kursa dalībnieki atšķir drošības/uzbrukumu kanālus (tīklu protokoli, 
 darbības lietotāju darbstacijās, failu glabātuves) un saprot to aizsardzībai nepieciešamo 
