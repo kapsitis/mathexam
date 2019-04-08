@@ -2,7 +2,7 @@
 
 ## Vispārīga informācija par piedāvājumu 
 
-(*Šis vēl NAV kurss, bet kursa priekšlikums.*) 
+(*Šī ir kursa apraksta skice*) 
 
 * **Fakultāte:** Datorikas fakultāte
 * **Auditorijas stundu skaits:** 32-64 (2 vai 4cr)
