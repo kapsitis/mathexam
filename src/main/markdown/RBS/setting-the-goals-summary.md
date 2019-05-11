@@ -1,5 +1,7 @@
 # RBS jaunā studiju programma: Vispārīgas pārdomas
 
+[Uz RBS lapas sākumu](index.html)
+
 Strukturētas un papildinātas pārdomas par LU un RTU 
 kopīgi piedāvāto studiju programmu, ko īsteno RBS.
 
