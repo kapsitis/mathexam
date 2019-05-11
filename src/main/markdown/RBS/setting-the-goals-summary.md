@@ -1,4 +1,4 @@
-# RBS jaunā studiju programma: Dažas vadlīnijas
+# RBS jaunā studiju programma: Vispārīgas pārdomas
 
 Strukturētas un papildinātas pārdomas par LU un RTU 
 kopīgi piedāvāto studiju programmu, ko īsteno RBS.
