@@ -52,7 +52,7 @@ object MainSite {
   def main(args: Array[String]): Unit = {
     val srcDir = "src/main/markdown"
     val destDir = "target/site"
-    val subDirs = List("LU", "LU/applied-algorithms", "LU/other-courses", "RBS")
+    val subDirs = List("applied-algorithms", "other-courses", "LU", "RBS")
 
     for (subDir <- subDirs) {
       val files = listFiles(s"$srcDir/$subDir", ".md").map(f => getPlainName(f))
