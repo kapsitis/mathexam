@@ -6,3 +6,5 @@
 * [CSE115: Introduction to Computer Science I](cse115.html)
 * [CSE199: Course Project](cse199.html)
 * MTH141: Matemātiskā analīze
+
+
