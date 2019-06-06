@@ -1,4 +1,4 @@
-# Specseminārs: Pārskatu veidošana un datu vizualizācijas
+# Specseminārs: Pārskati un datu vizualizācijas
 
 ## Vispārīga informācija par piedāvājumu 
 
