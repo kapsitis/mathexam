@@ -26,9 +26,16 @@ def rmDirectory(src):
 
 def main(): 
     rmDirectory('target')
+
+    ## Process static files
     copyDirectory('src/main/reveal.js', 'target/reveal.js')
     copyDirectory('src/main/style', 'target/style')
+    ROOT = 'src/main/static'    
+    subDirectories = set(next(os.walk(ROOT))[1]).difference(set(['themes']))
+    for dd in subDirectories:
+        copyDirectory('%s/%s' % (ROOT,dd), 'target/%s' % dd)
 
+    ## Process markdown stuff
     ROOT = 'src/main/markdown'    
     subDirectories = set(next(os.walk(ROOT))[1]).difference(set(['themes']))
     for dd in subDirectories:
