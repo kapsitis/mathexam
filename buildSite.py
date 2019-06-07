@@ -13,9 +13,19 @@ def copyDirectory(src, dest):
     except OSError as e:
         print('Directory not copied. Error: %s' % e)
 
+def rmDirectory(src):
+    try: 
+        shutil.rmtree(src)
+    # Directories are the same
+    except shutil.Error as e:
+        print('Directory not removed. Error: %s' % e)
+    # Any error saying that the directory doesn't exist
+    except OSError as e:
+        print('Directory not removed. Error: %s' % e)
+
 
 def main(): 
-    shutil.rmtree('target')
+    rmDirectory('target')
     copyDirectory('src/main/reveal.js', 'target/reveal.js')
     copyDirectory('src/main/style', 'target/style')
 
