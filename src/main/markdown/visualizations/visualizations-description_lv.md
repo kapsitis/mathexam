@@ -1,5 +1,7 @@
 # Specseminārs: Pārskati un datu vizualizācijas
 
+[Uz sākumu](http://85.254.250.28/learning/LU/)
+
 ## Vispārīga informācija par piedāvājumu 
 
 (*Šī ir kursa apraksta skice*) 

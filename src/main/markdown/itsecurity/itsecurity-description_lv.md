@@ -1,5 +1,7 @@
 # Kurss: IT drošības un datu aizsardzības principi
 
+[Uz sākumu](http://85.254.250.28/learning/LU/)
+
 ## Vispārīga informācija
 
 (*Šī ir kursa apraksta skice*) 

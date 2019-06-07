@@ -1,5 +1,7 @@
 # Visu kursu apraksti
 
+[Uz sākumu](http://85.254.250.28/learning/LU/)
+
 **Anotācija:** Šeit apkopojam norādes uz kursu 
 mājaslapām (vai to plānotajiem aprakstiem jeb *syllabus*). 
 Ievietojam saites arī uz dažādiem kopīgajiem standartiem, 

@@ -16,3 +16,9 @@ Instructional Systems Design and Courseware Development.
 3. [Datu pārvaldības un analīzes ietvari.](../datamgmt/datamgmt-description_lv.html) Data management and analysis frameworks.
 4. [Pārskati un datu vizualizācijas.](../visualizations/visualizations-description_lv.html) Reporting and Data Visualizations.
 
+
+## Skolēnu apmācība
+
+[Skaitļu teorijas uzdevumi NMS izlasei](http://85.254.250.28/training); [Citi izlases materiāli](http://www.dudajevagatve.lv/nt/)
+
+

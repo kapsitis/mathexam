@@ -1,6 +1,8 @@
 # Apmācību projektēšana un digitālie mācību līdzekļi
 
-## Vispārīga informācija par piedāvājumu 
+[Uz sākumu](http://85.254.250.28/learning/LU/)
+
+## Vispārīga informācija par piedāvājumu
 
 (*Šis ir kursa priekšlikums; norādes uz pilnu kursu tiks pievienotas vēlāk.*)
 
@@ -33,27 +35,14 @@ Akadēmisku disciplīnu, kura aplūko minētos jautājumus sauc par
 darba efektivitātes uzdevumus, saprast, kuri no tiem risināmi ar apmācības kursiem
 un kuri vairāk attiecināmi uz citām jomām, t.sk. priekšatlase, personāla vadība un motivācija, 
 tehniskie špikeri (*job aids*), apmācība darba vietā, u.c.
-2. Kursa dalībnieki veic pilnu apmācību moduļa sākotnējo plānošanu - apmācāmo analīzi (*learner analysis*), 
-konteksta analīzi un prasmju analīzi. No plānošanas pāriet uz izmērāmo galaiznākumu sarakstu
-(*performance objectives*), 
+2. Kursa dalībnieki veic pilnu apmācību moduļa sākotnējo plānošanu - 
+apmācāmo analīzi (*learner analysis*), konteksta analīzi un prasmju analīzi. 
+No plānošanas pāriet uz izmērāmo galaiznākumu sarakstu (*performance objectives*), 
 struktūras un laika tabulu (*storyboard*) un kursa tehniskā noformējuma standartiem. 
 3. Kursa dalībnieki semestra beigās iesniedz vienu mācību mikromoduli 
 (20-40 minūšu strukturētu apmācību par konkrētu tēmu konkrētai auditorijai), kas var būt
 optimizēts nodarbību organizēšanai tādā vai citā formātā.
 
-
-## Kursa plāns
-
-
-3. Kursa dalībnieki spēj izveidot izmērāmu mācību galaiznākumu sarakstu (*performance objectives*)
-un pirms mācību satura izveides izplānot kā notiks 
-4. Kursa dalībnieki spēj izveidot laika plāny (*storyboard*) datorbalstītai apmācībai (CBT),
-
-6. 
-
-
-
-8. Kursa dalībnieki iekļauj apmācību saturā labojumus, kas rodas apmācību 
 
 ## Kursa plāns
 
