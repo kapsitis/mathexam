@@ -5,11 +5,11 @@ mājaslapām (vai to plānotajiem aprakstiem jeb *syllabus*).
 Ievietojam saites arī uz dažādiem kopīgajiem standartiem, 
 kas izmantoti kursu satura veidošanā.
 
-## Aktuālo kursu mājaslapas
+## Kursu mājaslapas
 
 1. [Lietišķie algoritmi.](../algorithms/index.html) 
 *Algorithms in the Real World.*
-2. [Discrete Structures.](../discrete/index.html)
+2. [Discrete Structures.](../discrete/index.html) (proposal for [RBS/BITL](http://www.bitl.lv/) only)
 
 ## Citi piedāvājumi
 
