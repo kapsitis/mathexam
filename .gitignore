@@ -8,4 +8,4 @@ dist_myjs/*
 /project/target/
 /office/
 /target/
-
+src/main/markdown/**/*.html
