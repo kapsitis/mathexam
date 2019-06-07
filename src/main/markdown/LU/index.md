@@ -1,14 +1,19 @@
-# Piedāvājums LU
+# Apmācību sākumlapa
 
-* [Kalvis - CV](../Personal/CV_Kalvis_Apsitis_2019_lv.pdf)
+[**Home**](http://85.254.250.28/learning/LU/)
 
+* [Kalvis Apsītis - CV](../Personal/CV_Kalvis_Apsitis_2019_lv.pdf)
+
+<!--
 ## Kursu mājaslapas
 
 1. [Lietišķie algoritmi.](../algorithms/index.html) 
 *Algorithms in the Real World.*
 2. [Discrete Structures.](../discrete/index.html) (proposal for [RBS/BITL](http://www.bitl.lv/) only)
+-->
 
-## Citi piedāvājumi
+
+## Daži kursu piedāvājumi
 
 1. [Apmācību projektēšana un digitālie mācību līdzekļi.](../isd/isd-description_lv.html)
 Instructional Systems Design and Courseware Development.
