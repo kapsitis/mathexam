@@ -81,3 +81,8 @@ neatstumj otrajā plānā augstskolas pasniedzēju citas intereses, t.sk.
 konferences, akadēmiskā karjera vai grantu pieteikumi.
 
 
+Targeted Google Ads - to teach people how to search for stuff better... 
+https://www.nytimes.com/2019/07/07/opinion/google-ads.html
+
+
+
