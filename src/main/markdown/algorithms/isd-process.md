@@ -25,6 +25,8 @@ Kādus rīkus var būt vajadzīgs lietot kursa laikā; vai prasmes jau ir, nav,
 vai tās ir nedrošas un tām nepieciešams atbalsts. 
 * Dažādas citas grūtības, kas apmācāmajiem var rasties apmācību laikā. 
 
+Soļa rezultāti:
+
 * Aptauja #1 (vispārīgi jautājumi): 
   [SurveyMonkey](https://www.surveymonkey.com/r/HT7NKHB); 
   [Aptauja #1: pirmteksts](learner-analysis-questionnaire1.html)
@@ -32,6 +34,14 @@ vai tās ir nedrošas un tām nepieciešams atbalsts.
   [SurveyMonkey](https://www.surveymonkey.com/r/KHF9NLB); 
   [Aptauja #2: pirmteksts](learner-analysis-questionnaire2.html)
 * [Apmācāmo aptaujas rezultāti](learner-analysis-report.html)
+
+Neskaidrības: 
+
+* Vai ir studenti, kam svarīgi DatZ4020 nokārtot (uz noteiktu atzīmi?) 
+* Vai kursā sastopams akadēmiskais negodīgums (piemēram, norakstot mājasdarbus), kā pret to cīnās?
+* Vai studentu vidū ir cilvēki, kuri šos algoritmus ir lietojuši (piemēram, savās darba vietās)
+
+
 
 
 

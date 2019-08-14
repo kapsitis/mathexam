@@ -9,3 +9,4 @@ dist_myjs/*
 /office/
 /target/
 src/main/markdown/**/*.html
+src/main/source_material/
