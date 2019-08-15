@@ -23,26 +23,27 @@ kursu beidzot.
 Katras teorijas tēmas beigās pievienojam "pasaku" - apmēram 10 minūšu stāstījumu par kādu algoritmu lietojuma aspektu ar ārējām norādēm 
 tiem, kuri grib uzzināt kaut ko vairāk. 
 
-1. Informācijas teorijas jēdzieni, entropija. Hofmana saspiešana.  
+1. **Bezzudumu saspiešana - 1.** Informācijas teorijas jēdzieni, entropija. Hofmana saspiešana.  
 *Pasaka:* Kādas atvērtā koda vai brīvprogrammatūras implementācijas ir pieejamas šī kursa algoritmiem - pārskats.
 Kādos gadījumos Jums palīdz algoritma izpratne, spēja pašiem kodēt par līdzīgām tēmām.
-2. **Datu bezzudumu saspiešanas jēdzieni.** Vispārīgā prefiksu saspiešana un prefiksu koki. Aritmētiskā saspiešana.   
+2. Bezzudumu saspiešana - 2. Vispārīgā prefiksu saspiešana un prefiksu koki. Aritmētiskā saspiešana.   
 *Pasaka:* Empīriska saspiešanas mērīšana (biti uz simbolu). Entropija un saspiešanas teorētiskā robeža. Saspiežamības atkarība no valodas un failu žanra. Kalgari korpuss. 
-3. Bezzudumu saspiešana, LZ77 un Lempela-Ziva-Velča algoritmi.  
+3. Bezzudumu saspiešana - 3. LZ77 un Lempela-Ziva-Velča algoritmi.  
 *Pasaka:* LZW un GIF - kas ir "patentēti" algoritmi un failu formāti, vārda brīvība algoritmu pasaulē.
-4. Berouza-Vīlera algoritms.  
+4. Bezzudumu saspiešana - 4. Berouza-Vīlera algoritms.  
 *Pasaka:* Arhivēšanas rīku gz/WinZIP, gzip2 u.c. pārskats. Kas ir PNG saspiešanas līmenis (*compression level*). 
 HTTP sūtāmo failu un biroja programmu formātu (**docx**, nevis **doc**) saspiešanas sekas.
-5. **Datu zudumradošā saspiešana - 1**. Diskrētais kosinusu pārveidojums, JPEG algoritms.  
+5. **Zudumradošā saspiešana - 1**. Diskrētais kosinusu pārveidojums, JPEG algoritms.  
 *Pasaka:* Krāsu kodēšana, acīm atšķiramas atšķirības, Raw un JPEG dati foto un video aparatūrā. 
-6. Datu zudumradošās saspiešana - 2. Solomona-Rīda algoritms.  
+6. Zudumradošās saspiešana - 2. Solomona-Rīda algoritms.  
 *Pasaka:* MP3 un daži video formāti, to DRM (*digital rights management*). Redzamās un neredzamās ūdenszīmes mediju failos 
 (*watermarking algorithms*); to robustums atkarībā no saspiešanas veida.
 7. **Kļūdu korekcijas algoritmi - 1.** Heminga kods, piemēri un vispārīgais gadījums. Rīda-Solomona kodi.  
 *Pasaka:* Steganogrāfija jeb informācijas "paslēpšana" ar to nesaistītā failā. Izaicinājumi tiem, 
 kuri vēlas aizsargāt uzņēmumus un iestādes pret konfidenciālu datu noplūdēm: Data Leak Prevention (DLP).
-8. Kļūdu korekcijas algoritmi - 2. Galīgu lauku jēdziens. Grafu kodi un Tornado kodi.
-*Pasaka:* TCP/IP saimes tīklošanās protokoli, kuros izmanto redundanci. <span style="color:red">Semestra vidus eksāmens</span> (*Midterm exam*). 
+8. Kļūdu korekcijas algoritmi - 2. Galīgu lauku jēdziens. Grafu kodi un Tornado kodi.  
+*Pasaka:* TCP/IP saimes tīklošanās protokoli, kuros izmanto redundanci.  
+<span style="color:red">Semestra vidus eksāmens</span> (*Midterm exam*). 
 9. **Lineārā programmēšana - 1.** Optimizācijas problēmu veidi. Lineārās programmēšanas vizualizācija zemām dimensijām. Simpleksalgoritma ievads.  
 *Pasaka:* Transporta, preču ražošanas u.c. uzdevumi, kas noved pie lineārās optimizācijas.
 10. Lineārā programmēšana - 2. Simpleksu algoritms, tā korektums. Primārā un duālā lineārā programma.  
@@ -56,11 +57,12 @@ datu struktūras (tabuliņas). Laika sarežģītības salīdzinājums.
 Teksta dokumentu indeksācijas rīku salīdzinājums un to ātrdarbība.
 13. Meklēšana virknēs - 2. Bojera-Mūra algoritms. Laika sarežģītības salīdzinājums ar KMP.   
 *Pasaka:* Antivīrusu skenēšana, tradicionālās AV produktu *vīrusu signatūras*. Kā iepakot vīrusus, lai no tām izvairītos.
-14. Meklēšana virknēs - 3. Dinamiskā programmēšana. Ukkonena algoritms. Edsgera Deikstras (*Edsger W. Dijkstra*) algoritms. 
+14. Meklēšana virknēs - 3. Dinamiskā programmēšana. Ukkonena algoritms. Edsgera Deikstras (*Edsger W. Dijkstra*) algoritms.  
 *Pasaka:* Regulāru izteiksmju meklēšanas lietojumi DLP produktos (kā pasargāt organizācijas datortīklu no cilvēku vārdu, adresu, telefonu u.c. 
 noplūdes). Kā rakstīt regulāras izteiksmes, lai DLP skenēšana būtu efektīva. Kāpēc kredītkaršu datu noplūdes parasti 
 nemeklē ar regulārām izteiksmēm. 
-15. Pārskata nodarbība. <span style="color:red">Gala eksāmens</span> (*Final exam*). 
+15. Pārskata nodarbība. Savācam atgriezenisko saiti, uzklausām kursa dalībniekus, atbildam uz jautājumiem.  
+<span style="color:red">Gala eksāmens</span> (*Final exam*). 
 
 
 
