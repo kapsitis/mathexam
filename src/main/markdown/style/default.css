@@ -2,3 +2,21 @@ body {
   margin: 5%;
   font-family: Arial;
 }
+
+ol {
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}
+
+
+
