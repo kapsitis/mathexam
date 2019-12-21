@@ -8,5 +8,6 @@ dist_myjs/*
 /project/target/
 /office/
 /target/
+/source-material/
 src/main/markdown/**/*.html
 src/main/source_material/
