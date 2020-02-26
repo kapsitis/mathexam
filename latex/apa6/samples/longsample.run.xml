@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>shortsample.bcf</file>
+      <file>longsample.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>shortsample.bbl</file>
+      <file>longsample.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -61,28 +61,29 @@
       <file>biblatex.cfg</file>
       <file>american-apa.lbx</file>
       <file>american.lbx</file>
-      <file>english-apa.lbx</file>
       <file>english.lbx</file>
-      <file>american.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>shortsample</infile>
+      <infile>longsample</infile>
     </cmdline>
     <input>
-      <file>shortsample.bcf</file>
+      <file>longsample.bcf</file>
     </input>
     <output>
-      <file>shortsample.bbl</file>
+      <file>longsample.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>shortsample.bbl</file>
+      <file>longsample.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>shortsample.bcf</file>
+      <file>longsample.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>bibliography.bib</file>
     </requires>
   </external>
 </requests>

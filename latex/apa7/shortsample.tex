@@ -4,13 +4,13 @@
 %%
 %% The original source files were:
 %%
-%% apa6.dtx  (with options: `shortsample')
+%% apa7.dtx  (with options: `shortsample')
 %% ----------------------------------------------------------------------
 %% 
-%% apa6 - A LaTeX class for formatting documents in compliance with the
-%% American Psychological Association's Publication Manual, 6th edition
+%% apa7 - A LaTeX class for formatting documents in compliance with the
+%% American Psychological Association's Publication Manual, 7th edition
 %% 
-%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% Copyright (C) 2019 by Daniel A. Weiss <daniel.weiss.led at gmail.com>
 %% 
 %% This work may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License (LPPL), either
@@ -27,28 +27,24 @@
 %% 
 %% ----------------------------------------------------------------------
 %% 
-\documentclass[jou]{apa6}
+\documentclass[jou]{apa7}
 
 \usepackage[american]{babel}
 
-
-%https://ctan.org/pkg/apa7
-
-
 \usepackage{csquotes}
 \usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
-\DeclareLanguageMapping{english}{english-apa}
-%\addbibresource{examplebib.bib}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
 
-\title{Sample APA-Style Document Using the \textsf{apa6} Package}
+\title{Sample APA-Style Document Using the \textsf{apa7} Package}
 
-\author{Brian D. Beitzel}
-\affiliation{SUNY Oneonta}
+\author{Daniel A. Weiss}
+\affiliation{A University Somewhere}
 
-\leftheader{Beitzel}
+\leftheader{Weiss}
 
-\abstract{This demonstration paper uses the \textsf{apa6} \LaTeX\
-  class to format the document in compliance with the 6th Edition of
+\abstract{This demonstration paper uses the \textsf{apa7} \LaTeX\
+  class to format the document in compliance with the 7th Edition of
   the American Psychological Assocation's \textit{Publication Manual.}
   The references are managed using \textsf{biblatex}.}
 
@@ -131,13 +127,12 @@ statistical prowess in analyzing these data is unmatched.
 This is a lengthy and erudite discussion.  It demonstrates amazing
 skill in interpreting the results for the masses.
 
-%\printbibliography
-\thebibliography{examplebib}
+\printbibliography
 
 \end{document}
 
 %% 
-%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% Copyright (C) 2019 by Daniel A. Weiss <daniel.weiss.led at gmail.com>
 %% 
 %% This work may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License (LPPL), either
@@ -154,25 +149,23 @@ skill in interpreting the results for the masses.
 %% 
 %% 
 %% This work is "maintained" (as per LPPL maintenance status) by
-%% Brian D. Beitzel.
+%% Daniel A. Weiss.
 %% 
-%% This work consists of the file  apa6.dtx
-%% and the derived files           apa6.ins,
-%%                                 apa6.cls,
-%%                                 apa6.pdf,
+%% This work consists of the file  apa7.dtx
+%% and the derived files           apa7.ins,
+%%                                 apa7.cls,
+%%                                 apa7.pdf,
 %%                                 README,
-%%                                 APAamerican.txt,
-%%                                 APAbritish.txt,
-%%                                 APAdutch.txt,
-%%                                 APAenglish.txt,
-%%                                 APAgerman.txt,
-%%                                 APAngerman.txt,
-%%                                 APAgreek.txt,
-%%                                 APAczech.txt,
-%%                                 APAturkish.txt,
-%%                                 APAendfloat.cfg,
-%%                                 apa6.ptex,
-%%                                 TeX2WordForapa6.bas,
+%%                                 APA7american.txt,
+%%                                 APA7british.txt,
+%%                                 APA7dutch.txt,
+%%                                 APA7english.txt,
+%%                                 APA7german.txt,
+%%                                 APA7ngerman.txt,
+%%                                 APA7greek.txt,
+%%                                 APA7czech.txt,
+%%                                 APA7turkish.txt,
+%%                                 APA7endfloat.cfg,
 %%                                 Figure1.pdf,
 %%                                 shortsample.tex,
 %%                                 longsample.tex, and

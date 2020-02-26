@@ -31,14 +31,10 @@
 
 \usepackage[american]{babel}
 
-
-%https://ctan.org/pkg/apa7
-
-
 \usepackage{csquotes}
 \usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
-\DeclareLanguageMapping{english}{english-apa}
-%\addbibresource{examplebib.bib}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
 
 \title{Sample APA-Style Document Using the \textsf{apa6} Package}
 
@@ -131,8 +127,7 @@ statistical prowess in analyzing these data is unmatched.
 This is a lengthy and erudite discussion.  It demonstrates amazing
 skill in interpreting the results for the masses.
 
-%\printbibliography
-\thebibliography{examplebib}
+\printbibliography
 
 \end{document}
 

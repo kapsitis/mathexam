@@ -1,0 +1,48 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Last%
+}{%
+Last%
+}{%
+{\protect \APACyear {1900}}%
+}]{%
+art1}
+\APACinsertmetastar {%
+art1}%
+\begin{APACrefauthors}%
+Last, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1900}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A fictitious journal article} {A fictitious journal
+  article}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of nothingness}{2}{}{1-2}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Writer%
+}{%
+Writer%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+boo1}
+\APACinsertmetastar {%
+boo1}%
+\begin{APACrefauthors}%
+Writer, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {A silly book} {A silly book}.
+\newblock
+\APACaddressPublisher{Somewhere}{PublishCo}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
